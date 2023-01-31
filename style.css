@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;
+
+}
+
+html {
+    box-sizing: border-box;
+}
+
+
+
+/* Header */
+
+header {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    margin-left: 24px;
+}
+
+.nav-bar {
+    display: inline-flex;
+    list-style: none;
+    margin-right: 24px;
+}
+
+.nav-bar li {
+    padding: 8px;
+}
+
+/*
+.landing {
+    width: 100%;
+    background: rgb(202, 202, 202);
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 32px 24px;
+}
+
+.banner {
+    width: 60%;
+
+
+}
+
+.banner img {
+    width: 100%;
+
+}
+
+.banner-text {
+    color: rgb(62, 62, 62);
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    margin-right: 2rem;
+    align-items: center;
+    position: relative;
+    left: 0;
+}
+
+button {
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: rgb(62, 62, 62);
+    color: white;
+    margin: 1.5rem 0;
+    font-size: 1.5rem;
+}
+
+h1,
+h3 {
+    margin: 1rem 0;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+.information .left {
+    width: 60%;
+    margin-right: 24px;
+}
+
+.left img {
+    width: 100%;
+
+}
+
+.information {
+    width: 100%;
+    padding: 32px 0 32px 24px;
+    display: inline-flex;
+
+}
+
+.information .right {
+    width: 40%;
+    margin-right: none;
+}
+
+.card {
+    display: inline-flex;
+    align-items: center;
+
+    width: 100%;
+}
+
+.card img {
+    width: 35%;
+    height: auto;
+    padding: 16px;
+    flex-grow: 0;
+}
+
+.card-text {
+    width: 65%;
+}
+
+.card:nth-child(3) {
+    background-color: rgb(202, 202, 202);
+}
+
+*/
+html {
+    --light-gray: rgb(199, 199, 199);
+
+}
+
+
+
+.landing {
+    display: grid;
+    grid-template-columns: 60% auto;
+    grid-template-rows: 100%;
+    background-color: var(--light-gray);
+    padding: 2rem 24px;
+    grid-gap: 24px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.information {
+    display: grid;
+    grid-template-columns: 60% auto;
+    grid-template-rows: 100%;
+    padding: 2rem 0 24px 2rem;
+    grid-gap: 24px;
+}
+
+.information .left img {
+    width: 100%;
+}
+
+.information .right img {
+    width: 35%;
+    height: auto;
+    padding: 0 32px 32px 16px;
+
+}
+
+.information .right {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: solid 1px var(--light-gray);
+}
+
+.right .card {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.information .card:nth-child(3) {
+    background-color: var(--light-gray);
+
+}
+
+.information .card:nth-child(3) img {
+    padding: 16px;
+}
+
+.courses-container {
+    width: 100%;
+    height: 100%;
+    background-color: var(--light-gray);
+}
+
+.courses-container h2 {
+    text-align: center;
+    padding-top: 32px;
+}
+
+.courses-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 32px 72px;
+    grid-gap: 32px;
+
+}
+
+.courses-container img {
+    height: auto;
+    width: 100%;
+}
+
+.courses-grid div {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.thesis-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60% auto;
+    grid-template-rows: 1fr;
+    grid-gap: 24px;
+    margin: 32px 24px;
+}
+
+.thesis-container video {
+    width: 100%;
+}
+
+.thesis-container img {
+    width: 35%;
+    margin: 16px;
+}
+
+.thesis-container .card:first-child {
+    background-color: var(--light-gray);
+}
+
+.thesis-container .card {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+}
